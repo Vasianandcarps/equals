@@ -16,7 +16,7 @@ start.onclick= function solveQuadratic() {
       let x1 = o / a1;
       let x2 = o1 / a1;
 
-      document.getElementById("answer").innerHTML = "D=" + D + ";" +"x1=" + x1 + ";" + "x2=" + x2;
+      document.getElementById("answer").innerHTML = "D=" + D.toFixed(2) + ";" +"x1=" + x1 + ";" + "x2=" + x2;
     } else {
       document.getElementById("answer").innerHTML = "D cannot be less than 0";
     }
