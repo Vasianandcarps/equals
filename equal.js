@@ -1,5 +1,6 @@
-
-let start=document.getElementById("start");
+window.addEventListener(orientationEvent, function() {
+  var orientation = Math.abs(window.orientation) ==  'portrait';
+  let start=document.getElementById("start");
 
 start.onclick= function solveQuadratic() {
   let a = parseFloat(document.getElementById("in_a").value);
@@ -33,5 +34,7 @@ start.onclick= function solveQuadratic() {
     }
   }
 }
+
+}, false);
 
 
