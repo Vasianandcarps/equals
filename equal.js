@@ -1,5 +1,4 @@
-
-  let start=document.getElementById("start");
+let start=document.getElementById("start");
 
 start.onclick= function solveQuadratic() {
   let a = parseFloat(document.getElementById("in_a").value);
