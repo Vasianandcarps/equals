@@ -9,7 +9,7 @@
 body,
 html {
   height: 100%;
-  background: #5BA199;
+  background: #00457E;
 width: 100%;
 }
 
@@ -27,7 +27,7 @@ width: 100%;
 }
 
 button {
-  background-color: #398182;
+  background-color: #02315E;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -52,10 +52,38 @@ input {
   height: 260px;
   text-align: center;
   padding: 6px 0 4px 10px;
-  background: #BBC6C8;
+  background: #2F70AF;
   border-radius: 4px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1500px), (max-height:1024) {
+  * {
+    font-size: 100px;
+  }
+  body,
+html {
+
+  background:#5BA199 ;
+
+}
+  input {
+    width: 100px;
+    height: 100px;
+    background: #BBC6C8;
+  }
+  #button {
+   
+    margin-top: -25%;
+    height: 10%;}
+  button{
+    font-size: 60px;
+    background: #398182;
+  }
+  #answer {
+    font-size: 70px;
+    height: 10%;
+  }
+}
+@media only screen and (max-width: 900px), (max-height:1024) {
   * {
     font-size: 80px;
   }
@@ -84,7 +112,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px ), (max-height:1024) {
   * {
     font-size: 50px;
   }
