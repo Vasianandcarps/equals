@@ -84,3 +84,31 @@ html {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  * {
+    font-size: 50px;
+  }
+  body,
+html {
+
+  background:#EEC76F ;
+
+}
+  input {
+    width: 50px;
+    height: 50px;
+    background: #F6E8B8;
+  }
+  #button {
+   
+    margin-top: -40%;
+    height: 10%;}
+  button{
+    font-size: 40px;
+    background: #D2973E;
+  }
+  #answer {
+    font-size: 30px;
+    height: 10%;
+  }
+}
