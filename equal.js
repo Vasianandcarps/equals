@@ -34,18 +34,5 @@ start.onclick= function solveQuadratic() {
   }
 }
 
-window.addEventListener('orientationchange', function() {
-  var orientation = Math.abs(window.orientation) == 90 ? 'landscape' : 'portrait';
-
-  if (orientation === 'portrait') {
-    // Применяем стили для блокировки поворота
-    document.documentElement.style.overflow = 'hidden';
-    document.body.style.overflow = 'hidden';
-  } else {
-    // Удаляем стили блокировки поворота
-    document.documentElement.style.overflow = '';
-    document.body.style.overflow = '';
-  }
-}, false);
 
 
