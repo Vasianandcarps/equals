@@ -1,38 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 260px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: none;
+}
 
-  let start=document.getElementById("start");
+body,
+html {
+  height: 100%;
+  background: #00457E;
+width: 100%;
+}
 
-start.onclick= function solveQuadratic() {
-  let a = parseFloat(document.getElementById("in_a").value);
-  let b = parseFloat(document.getElementById("in_b").value);
-  let c = parseFloat(document.getElementById("in_c").value);
+#button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20%;
+  height: 35%;
+}
 
-  if (a != 0) {
-    let D = b * b - 4 * a * c;
-    
-    if (D >= 0) {
-      let o = -b + Math.sqrt(D);
-      let o1 = -b - Math.sqrt(D);
-      let a1 = 2 * a;
-      let x1 = o / a1;
-      let x2 = o1 / a1;
+#answer {
+  font-size: 100px;
+  height: 10%;
+}
 
-      document.getElementById("answer").innerHTML = "D=" + D.toFixed(2) + ";" +"x1=" + x1 + ";" + "x2=" + x2;
-    } else {
-      document.getElementById("answer").innerHTML = "D cannot be less than 0";
-    }
-  } else {
-    if (b != 0) {
-      let x = -c / b;
-      document.getElementById("answer").innerHTML = "x=" + x;
-    } else {
-      if (c == 0) {
-        document.getElementById("answer").innerHTML = "Infinite solutions";
-      } else {
-        document.getElementById("answer").innerHTML = "No real solutions";
-      }
-    }
+button {
+  background-color: #02315E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 100px;
+  border-radius: 70px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input {
+  width: 260px;
+  height: 260px;
+  text-align: center;
+  padding: 6px 0 4px 10px;
+  background: #2F70AF;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 1500px), (max-height:1024) {
+  * {
+    font-size: 100px;
+  }
+  body,
+html {
+
+  background:#5BA199 ;
+
+}
+  input {
+    width: 100px;
+    height: 100px;
+    background: #BBC6C8;
+  }
+  #button {
+   
+    margin-top: -25%;
+    height: 10%;}
+  button{
+    font-size: 60px;
+    background: #398182;
+  }
+  #answer {
+    font-size: 70px;
+    height: 10%;
+  }
+}
+@media only screen and (max-width: 900px), (max-height:1024) {
+  * {
+    font-size: 80px;
+  }
+  body,
+html {
+
+  background:#525e44 ;
+
+}
+  input {
+    width: 80px;
+    height: 80px;
+    background: #8B9D77;
+  }
+  #button {
+   
+    margin-top: -40%;
+    height: 10%;}
+  button{
+    font-size: 40px;
+    background: #79925d;
+  }
+  #answer {
+    font-size: 50px;
+    height: 10%;
   }
 }
 
+@media only screen and (max-width: 500px ), (max-height:1024) {
+  * {
+    font-size: 50px;
+  }
+  body,
+html {
 
+  background:#EEC76F ;
 
+}
+  input {
+    width: 50px;
+    height: 50px;
+    background: #F6E8B8;
+  }
+  #button {
+   
+    margin-top: -40%;
+    height: 10%;}
+  button{
+    font-size: 40px;
+    background: #D2973E;
+  }
+  #answer {
+    font-size: 30px;
+    height: 10%;
+  }
+}
+s
