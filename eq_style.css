@@ -85,7 +85,7 @@ html {
 }
 @media only screen and (max-width: 950px){
   * {
-    font-size: 80px;
+    font-size: 60px;
   }
   body,
 html {
@@ -100,14 +100,14 @@ html {
   }
   #button {
    
-    margin-top: -13%;
+    margin-top: -15%;
     height: 7%;}
   button{
     font-size: 25px;
     background: #79925d;
   }
   #answer {
-     margin-top: 2%;
+     margin-top: 3%;
     font-size: 30px;
     height: 8%;
   }
