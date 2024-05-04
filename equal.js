@@ -1,4 +1,4 @@
-window.screen.lockOrientation('portrait');
+
 let start=document.getElementById("start");
 
 start.onclick= function solveQuadratic() {
