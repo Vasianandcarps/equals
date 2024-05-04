@@ -98,21 +98,21 @@ html {
     height: 80px;
     background: #8B9D77;
   }
+
   #button {
    
-    margin-top: -7%;
+    margin-top: -5%;
     height: 7%;}
   button{
     font-size: 25px;
     background: #79925d;
   }
   #answer {
-     margin-top: 0%;
+     margin-top: 2%;
     font-size: 30px;
     height: 8%;
   }
 }
-
 @media only screen and (max-width: 500px ) {
   * {
     font-size: 50px;
