@@ -99,19 +99,17 @@ html {
     background: #8B9D77;
   }
   #button {
-       margin-top: -2%;
-
+   
+    margin-top: -10%;
     height: 10%;}
   button{
-    
     font-size: 40px;
     background: #79925d;
   }
   #answer {
+     margin-top: 3%;
     font-size: 50px;
-    height: 10%;
-     margin-top: -13%;
-    
+    height: 8%;
   }
 }
 
@@ -141,6 +139,5 @@ html {
   #answer {
     font-size: 30px;
     height: 10%;
-       margin-top: 0%;
   }
 }
