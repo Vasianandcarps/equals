@@ -101,14 +101,14 @@ html {
   #button {
    
     margin-top: -10%;
-    height: 10%;}
+    height: 8%;}
   button{
-    font-size: 40px;
+    font-size: 25px;
     background: #79925d;
   }
   #answer {
      margin-top: 3%;
-    font-size: 50px;
+    font-size: 40px;
     height: 8%;
   }
 }
